@@ -118,7 +118,7 @@ angular.module('adminApp', ['ui.router','oc.lazyLoad', 'angular-loading-bar', 'n
                         'src/components/simditor/font-awesome.css',
                         'src/components/simditor/simditor/simditor-all.js',
                         'src/components/simditor/angular-editor.js',
-
+  
                         'src/components/textAngular/textAngular.css'
                     ]
                 })
@@ -148,6 +148,15 @@ angular.module('adminApp', ['ui.router','oc.lazyLoad', 'angular-loading-bar', 'n
             
             .state('icons', _G.getRouteOptions({
                     module: 'icons'
+                })
+            )
+  
+            .state('tooltip', _G.getRouteOptions({
+                    module: 'tooltip',
+                    files: [
+                        'src/components/tooltips/angular-tooltips.css',
+                        'src/components/tooltips/angular-tooltips.js'
+                    ]
                 })
             )
 

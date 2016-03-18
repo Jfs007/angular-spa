@@ -54,6 +54,10 @@
                 {
                     "name": "icons",
                     "url": "icons"
+                },
+                {
+                    "name": "tooltip",
+                    "url" : "tooltip"
                 }
             ]
         }
