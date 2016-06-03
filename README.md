@@ -1,5 +1,5 @@
 
-#angular制作的SPA单页应用(更新中)
+#angular制作的SPA单页应用
 
 在线演示：[http://www.byex.cn/angular-spa](http://www.byex.cn/angular-spa/)
 
